@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Push up', 'Romanian Deadlift', 'Russian twist', 'Shoulder press']
+
+roboflow:
+  workspace: technological-institute-of-the-philippines-i41no
+  project: workout-exercises
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/technological-institute-of-the-philippines-i41no/workout-exercises/dataset/1
