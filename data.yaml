@@ -3,8 +3,8 @@ val: ../valid/images
 test: ../test/images
 
 nc: 4
-names: ['Push up', 'Romanian Deadlift', 'Russian twist', 'Shoulder press']
-
+# names: ['Push up', 'Romanian Deadlift', 'Russian twist', 'Shoulder press']
+names: ['0', '1', '2', '3']
 roboflow:
   workspace: technological-institute-of-the-philippines-i41no
   project: workout-exercises
