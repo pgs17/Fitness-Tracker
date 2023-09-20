@@ -1,5 +1,8 @@
 from ultralytics import YOLO
 
-model=YOLO("") # Give the model
+model=YOLO("yolov8l.yaml") # Give the model
 
-model.train(data="data.yaml",epochs=300,imgsz=640)
+model.train(data="data.yaml",epochs=320,imgsz=640)
+
+# Run on colab after pip install ultralytics
+
